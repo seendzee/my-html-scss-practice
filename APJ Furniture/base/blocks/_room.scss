@@ -1,0 +1,146 @@
+.room__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+}
+.room__left-button {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.81);
+  backdrop-filter: blur(2px);
+  padding: 20px;
+  align-items: center;
+  color: #ffad4c;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.room__left-button-first {
+  transform: rotate(180deg);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.81);
+  backdrop-filter: blur(2px);
+  padding: 20px;
+  align-items: center;
+  color: #ffad4c;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.room__buttons {
+  max-width: 625px;
+  display: flex;
+  justify-content: space-around;
+  column-gap: 16px;
+  position: relative;
+}
+
+.room__title {
+  width: 429px;
+  color: #4b4b4b;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 44.8px */
+  letter-spacing: 0.32px;
+  margin-bottom: 32px;
+}
+
+.room__image {
+  position: relative;
+}
+
+.room__left-button-first {
+  position: absolute;
+  right: 84px;
+  top: -66px;
+}
+.room__left-button {
+  position: absolute;
+  top: -66px;
+  right: -15px;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.room__right {
+  display: flex;
+  margin-left: 72px;
+}
+
+.room__right-img {
+  margin-right: 24px;
+  height: 202px;
+}
+.room__right-info {
+  height: 202px;
+}
+.room_right-text {
+  width: 317px;
+  color: #4b4b4b;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  margin-bottom: 62px;
+}
+
+.room__right-title {
+  color: #4b4b4b;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 33.6px */
+  letter-spacing: 0.24px;
+  margin-bottom: 8px;
+}
+
+.room_right-link {
+  position: relative;
+  color: #4b4b4b;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 23.8px */
+  letter-spacing: 0.17px;
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: 4px;
+    right: -35px;
+    width: 8px;
+    height: 14px;
+    background: url(/img/arrowleft.svg);
+  }
+}
+
+
+.room__overall {
+  flex-direction: column;
+}
+
+.room__fix {
+  display: flex;
+  justify-content: space-between;
+}
+
+.room__fix-last {
+  padding-top: 40px;
+}
+
+.room__fix-first {
+  padding-bottom: 40px;
+}
+

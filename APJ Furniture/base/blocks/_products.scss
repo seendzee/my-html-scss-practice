@@ -1,0 +1,137 @@
+.products {
+  padding-top: 72px;
+}
+
+.products__first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+}
+.products__list {
+  margin-bottom: 50px;
+}
+.products__item {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  background: #ecd3b899;
+  border-radius: 8px;
+  padding: 32px 24px;
+  height: 450px;
+  width: 312px;
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: 32px;
+    right: 24px;
+    width: 30px;
+    height: 28px;
+    background: url(/img/package.svg);
+    background-repeat: no-repeat;
+
+    border-radius: 36px;
+    cursor: pointer;
+  }
+}
+.products__title {
+  color: rgba(51, 51, 51, 0.3);
+  font-family: Roboto;
+  font-size: 17px;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: 0.14px;
+  margin-bottom: 5px;
+}
+.products__text {
+  color: #4b4b4b;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 28px */
+  letter-spacing: 0.2px;
+}
+.products__image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.products__first-title {
+  color: #4b4b4b;
+  font-family: Roboto;
+  font-size: 32px;
+
+  font-weight: 700;
+  line-height: 140%; /* 44.8px */
+  letter-spacing: 0.32px;
+}
+.products__first-text {
+  position: relative;
+  color: rgba(75, 75, 75, 0.69);
+  font-family: Roboto;
+  font-size: 16px;
+
+  line-height: 140%; /* 22.4px */
+  letter-spacing: 0.16px;
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: 4px;
+    right: -35px;
+    width: 8px;
+    height: 14px;
+    background: url(/img/arrowleft.svg);
+  }
+}
+
+.products__list-item {
+  display: flex;
+  column-gap: 24px;
+}
+
+.products__list-text {
+  color: #4b4b4b;
+  font-family: Roboto;
+  font-size: 19px;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: 0.14px;
+}
+
+.products__list-dark {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+.products__item-button {
+  color: #ffad4c;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: 0.14px;
+
+  border-radius: 36px;
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(2px);
+  width: 140px;
+  padding: 12px 24px;
+  text-align: center;
+  height: 50px;
+  margin-bottom: 24px;
+  transition: .4s;
+
+  &:hover {
+    background-color: #ffad4c;
+    color: #fff;;
+  }
+}
+
+.products__wrap {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 34px;
+}

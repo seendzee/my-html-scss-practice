@@ -1,0 +1,25 @@
+.company {
+    padding-top: 850px;
+}
+
+.company__title {
+    text-align: center;
+    margin-bottom: 64px;
+    color: #4b4b4b;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.24px;
+    opacity: .6;
+    font-family: Arial, "Roboto", Helvetica, sans-serif;
+}
+.company__item {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 70px;
+}
+
+
+.company__list {
+    padding-bottom: 80px;
+}
