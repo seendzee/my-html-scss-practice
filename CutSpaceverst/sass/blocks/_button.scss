@@ -1,0 +1,28 @@
+.button {
+  display: inline-block;
+  height: 58px;
+  padding-left: 37px;
+  padding-right: 37px;
+  border-radius: 29px;
+  background-color: #f78334;
+
+  line-height: 58px;
+  font-weight: 700;
+  color: #fff;
+  transition: 0.4s;
+
+  &:hover {
+    background-color: #bb6328;
+  }
+
+  &--white {
+    background-color: #fff;
+    color: #323232;
+    transition: 0.4s;
+  }
+
+  &:hover {
+    background-color: #323232;
+    color: #fff;
+  }
+}

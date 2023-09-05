@@ -1,0 +1,48 @@
+.nav {
+  padding-top: 35px;
+  padding-bottom: 33px;
+}
+
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+
+  img {
+    margin-right: 5px;
+  }
+}
+.navigation-list {
+  ul {
+    display: flex;
+  }
+
+  li {
+    margin-right: 42px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  a {
+    transition: 0.4s;
+
+    &.active {
+      color: #f78434;
+      font-weight: 700;
+    }
+
+    &:hover {
+      color: #f78434;
+    }
+  }
+}
